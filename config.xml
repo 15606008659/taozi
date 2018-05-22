@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><config pluginId="856">
+	<paramLs>
+        <param name="TZgameID" bWriteIntoManifest="0" placeholderText="" required="1" bWriteIntoClient="1" bUserOffer="1" showName="游戏ID" desc="游戏ID"/>
+        <param name="TZgameKey" bWriteIntoManifest="0" placeholderText="" required="1" bWriteIntoClient="1" bUserOffer="1" showName="游戏Key" desc="游戏Key"/>
+        <param name="TZsecretKey" bWriteIntoManifest="0" placeholderText="" required="1" bWriteIntoClient="1" bUserOffer="1" showName="支付Key" desc="支付密钥"/>
+        <param name="TZbundleID" bWriteIntoManifest="0" placeholderText="" required="1" bWriteIntoClient="1" bUserOffer="1" showName="包名" desc="登录验证需要包名"/>
+        <param name="TZtrackKey" bWriteIntoManifest="0" placeholderText="" required="0" bWriteIntoClient="1" bUserOffer="1" showName="热云Key" desc="热云Key"/>
+		<param bWriteIntoManifest="0" required="1" desc="支付通知地址" showName="支付通知地址" name="callback" bWriteIntoClient="0" bUserOffer="1" placeholderText=""/>
+	</paramLs>
+	
+	<operateLs/>
+	
+	<pluginLs><plugin desc="UserTaozi" name="UserTaozi" typePlugin="0"/><plugin desc="IAPOnlineTaozi" name="IAPOnlineTaozi" typePlugin="2"/></pluginLs>
+	<sysFrameworksLs>
+        <sysFrameworks name="AVFoundation.framework" path="xcodeFrameworks" required="1"/>
+        <sysFrameworks name="WebKit.framework" path="xcodeFrameworks" required="1"/>
+		<sysFrameworks name="AlipaySDK.framework" path="xcodeFrameworks" required="1"/>
+        <sysFrameworks name="TZSdk.framework" path="xcodeFrameworks" required="1"/>
+        <sysFrameworks name="CoreMotion.framework" path="xcodeFrameworks" required="1"/>
+        <sysFrameworks name="libc++.tbd" path="xcodeUsrlib" required="1"/>
+        <sysFrameworks name="libz.tbd" path="xcodeUsrlib" required="1"/>
+        <sysFrameworks name="libsqlite3.0.tbd" path="xcodeUsrlib" required="1"/>
+    </sysFrameworksLs>
+	<version code="1000" minClientVer="2.0" minFrameworkVer="2.0" showVersion="2.0.0_1.0.0">
+        <![CDATA[更新至 1.0.0 版本<br/>
+            支持登录和支付
+        ]]>
+    </version>
+</config>

@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88391F8020AD246D0090B391 /* UserTaozi.m in Sources */ = {isa = PBXBuildFile; fileRef = 88391F7A20AD246D0090B391 /* UserTaozi.m */; };
+		88391F8120AD246D0090B391 /* TaoziWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 88391F7D20AD246D0090B391 /* TaoziWrapper.m */; };
+		88391F8220AD246D0090B391 /* IAPOnlineTaozi.m in Sources */ = {isa = PBXBuildFile; fileRef = 88391F7F20AD246D0090B391 /* IAPOnlineTaozi.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		88391F7A20AD246D0090B391 /* UserTaozi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTaozi.m; sourceTree = "<group>"; };
+		88391F7B20AD246D0090B391 /* TaoziWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaoziWrapper.h; sourceTree = "<group>"; };
+		88391F7C20AD246D0090B391 /* IAPOnlineTaozi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPOnlineTaozi.h; sourceTree = "<group>"; };
+		88391F7D20AD246D0090B391 /* TaoziWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaoziWrapper.m; sourceTree = "<group>"; };
+		88391F7E20AD246D0090B391 /* UserTaozi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTaozi.h; sourceTree = "<group>"; };
+		88391F7F20AD246D0090B391 /* IAPOnlineTaozi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPOnlineTaozi.m; sourceTree = "<group>"; };
+		88391F8720AD25AC0090B391 /* TZSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TZSdk.framework; path = Frameworks/TZSdk.framework; sourceTree = "<group>"; };
+		88391F8A20AD261F0090B391 /* TZGameSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZGameSdk.h; sourceTree = "<group>"; };
+		88391F8B20AD261F0090B391 /* TZSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZSdk.h; sourceTree = "<group>"; };
+		D70871F41BF4710E0075FB1A /* AdsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdsUtil.h; sourceTree = "<group>"; };
+		D70871F51BF4710E0075FB1A /* AdsWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdsWrapper.h; sourceTree = "<group>"; };
+		D70871F61BF4710E0075FB1A /* AgentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentManager.h; sourceTree = "<group>"; };
+		D70871F71BF4710E0075FB1A /* AnalyticsWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsWrapper.h; sourceTree = "<group>"; };
+		D70871F81BF4710E0075FB1A /* CustomWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomWrapper.h; sourceTree = "<group>"; };
+		D70871F91BF4710E0075FB1A /* IAPWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPWrapper.h; sourceTree = "<group>"; };
+		D70871FA1BF4710E0075FB1A /* InterfaceAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceAds.h; sourceTree = "<group>"; };
+		D70871FB1BF4710E0075FB1A /* InterfaceAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceAnalytics.h; sourceTree = "<group>"; };
+		D70871FC1BF4710E0075FB1A /* InterfaceCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceCrash.h; sourceTree = "<group>"; };
+		D70871FD1BF4710E0075FB1A /* InterfaceCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceCustom.h; sourceTree = "<group>"; };
+		D70871FE1BF4710E0075FB1A /* InterfaceIAP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceIAP.h; sourceTree = "<group>"; };
+		D70871FF1BF4710E0075FB1A /* InterfacePush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfacePush.h; sourceTree = "<group>"; };
+		D70872001BF4710E0075FB1A /* InterfaceREC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceREC.h; sourceTree = "<group>"; };
+		D70872011BF4710E0075FB1A /* InterfaceShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceShare.h; sourceTree = "<group>"; };
+		D70872021BF4710E0075FB1A /* InterfaceSocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceSocial.h; sourceTree = "<group>"; };
+		D70872031BF4710E0075FB1A /* InterfaceUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceUser.h; sourceTree = "<group>"; };
+		D70872041BF4710E0075FB1A /* JsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonParser.h; sourceTree = "<group>"; };
+		D70872051BF4710E0075FB1A /* PluginApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginApplicationDelegate.h; sourceTree = "<group>"; };
+		D70872061BF4710E0075FB1A /* PluginFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginFactory.h; sourceTree = "<group>"; };
+		D70872071BF4710E0075FB1A /* PluginHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginHelper.h; sourceTree = "<group>"; };
+		D70872081BF4710E0075FB1A /* PluginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginManager.h; sourceTree = "<group>"; };
+		D70872091BF4710E0075FB1A /* PluginParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginParam.h; sourceTree = "<group>"; };
+		D708720A1BF4710E0075FB1A /* PluginProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginProtocol.h; sourceTree = "<group>"; };
+		D708720B1BF4710E0075FB1A /* PluginWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginWrapper.h; sourceTree = "<group>"; };
+		D708720C1BF4710E0075FB1A /* ProtocolAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolAds.h; sourceTree = "<group>"; };
+		D708720D1BF4710E0075FB1A /* ProtocolAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolAnalytics.h; sourceTree = "<group>"; };
+		D708720E1BF4710E0075FB1A /* ProtocolCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolCrash.h; sourceTree = "<group>"; };
+		D708720F1BF4710E0075FB1A /* ProtocolCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolCustom.h; sourceTree = "<group>"; };
+		D70872101BF4710E0075FB1A /* ProtocolIAP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolIAP.h; sourceTree = "<group>"; };
+		D70872111BF4710E0075FB1A /* ProtocolPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolPush.h; sourceTree = "<group>"; };
+		D70872121BF4710E0075FB1A /* ProtocolREC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolREC.h; sourceTree = "<group>"; };
+		D70872131BF4710E0075FB1A /* ProtocolShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolShare.h; sourceTree = "<group>"; };
+		D70872141BF4710E0075FB1A /* ProtocolSocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolSocial.h; sourceTree = "<group>"; };
+		D70872151BF4710E0075FB1A /* ProtocolUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolUser.h; sourceTree = "<group>"; };
+		D70872161BF4710E0075FB1A /* PushWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushWrapper.h; sourceTree = "<group>"; };
+		D70872171BF4710E0075FB1A /* RECWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECWrapper.h; sourceTree = "<group>"; };
+		D70872181BF4710E0075FB1A /* SdkHttpListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SdkHttpListener.h; sourceTree = "<group>"; };
+		D70872191BF4710E0075FB1A /* ShareWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareWrapper.h; sourceTree = "<group>"; };
+		D708721A1BF4710E0075FB1A /* SocialWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialWrapper.h; sourceTree = "<group>"; };
+		D708721B1BF4710E0075FB1A /* UserWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserWrapper.h; sourceTree = "<group>"; };
+		D708721C1BF4710E0075FB1A /* Wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wrapper.h; sourceTree = "<group>"; };
+		D79E592A19AB370700EC1CFE /* Template.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Template.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D79E592719AB370700EC1CFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88391F7920AD246D0090B391 /* taozi */ = {
+			isa = PBXGroup;
+			children = (
+				88391F7A20AD246D0090B391 /* UserTaozi.m */,
+				88391F7B20AD246D0090B391 /* TaoziWrapper.h */,
+				88391F7C20AD246D0090B391 /* IAPOnlineTaozi.h */,
+				88391F7D20AD246D0090B391 /* TaoziWrapper.m */,
+				88391F7E20AD246D0090B391 /* UserTaozi.h */,
+				88391F7F20AD246D0090B391 /* IAPOnlineTaozi.m */,
+			);
+			path = taozi;
+			sourceTree = "<group>";
+		};
+		88391F8620AD25AC0090B391 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88391F8720AD25AC0090B391 /* TZSdk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88391F8920AD261F0090B391 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				88391F8A20AD261F0090B391 /* TZGameSdk.h */,
+				88391F8B20AD261F0090B391 /* TZSdk.h */,
+			);
+			name = Headers;
+			path = Frameworks/TZSdk.framework/Headers;
+			sourceTree = "<group>";
+		};
+		D70871EF1BF4710E0075FB1A /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D70871F21BF4710E0075FB1A /* ios */,
+			);
+			name = protocols;
+			path = ../../protocols;
+			sourceTree = "<group>";
+		};
+		D70871F21BF4710E0075FB1A /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				D70871F31BF4710E0075FB1A /* include */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		D70871F31BF4710E0075FB1A /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D70871F41BF4710E0075FB1A /* AdsUtil.h */,
+				D70871F51BF4710E0075FB1A /* AdsWrapper.h */,
+				D70871F61BF4710E0075FB1A /* AgentManager.h */,
+				D70871F71BF4710E0075FB1A /* AnalyticsWrapper.h */,
+				D70871F81BF4710E0075FB1A /* CustomWrapper.h */,
+				D70871F91BF4710E0075FB1A /* IAPWrapper.h */,
+				D70871FA1BF4710E0075FB1A /* InterfaceAds.h */,
+				D70871FB1BF4710E0075FB1A /* InterfaceAnalytics.h */,
+				D70871FC1BF4710E0075FB1A /* InterfaceCrash.h */,
+				D70871FD1BF4710E0075FB1A /* InterfaceCustom.h */,
+				D70871FE1BF4710E0075FB1A /* InterfaceIAP.h */,
+				D70871FF1BF4710E0075FB1A /* InterfacePush.h */,
+				D70872001BF4710E0075FB1A /* InterfaceREC.h */,
+				D70872011BF4710E0075FB1A /* InterfaceShare.h */,
+				D70872021BF4710E0075FB1A /* InterfaceSocial.h */,
+				D70872031BF4710E0075FB1A /* InterfaceUser.h */,
+				D70872041BF4710E0075FB1A /* JsonParser.h */,
+				D70872051BF4710E0075FB1A /* PluginApplicationDelegate.h */,
+				D70872061BF4710E0075FB1A /* PluginFactory.h */,
+				D70872071BF4710E0075FB1A /* PluginHelper.h */,
+				D70872081BF4710E0075FB1A /* PluginManager.h */,
+				D70872091BF4710E0075FB1A /* PluginParam.h */,
+				D708720A1BF4710E0075FB1A /* PluginProtocol.h */,
+				D708720B1BF4710E0075FB1A /* PluginWrapper.h */,
+				D708720C1BF4710E0075FB1A /* ProtocolAds.h */,
+				D708720D1BF4710E0075FB1A /* ProtocolAnalytics.h */,
+				D708720E1BF4710E0075FB1A /* ProtocolCrash.h */,
+				D708720F1BF4710E0075FB1A /* ProtocolCustom.h */,
+				D70872101BF4710E0075FB1A /* ProtocolIAP.h */,
+				D70872111BF4710E0075FB1A /* ProtocolPush.h */,
+				D70872121BF4710E0075FB1A /* ProtocolREC.h */,
+				D70872131BF4710E0075FB1A /* ProtocolShare.h */,
+				D70872141BF4710E0075FB1A /* ProtocolSocial.h */,
+				D70872151BF4710E0075FB1A /* ProtocolUser.h */,
+				D70872161BF4710E0075FB1A /* PushWrapper.h */,
+				D70872171BF4710E0075FB1A /* RECWrapper.h */,
+				D70872181BF4710E0075FB1A /* SdkHttpListener.h */,
+				D70872191BF4710E0075FB1A /* ShareWrapper.h */,
+				D708721A1BF4710E0075FB1A /* SocialWrapper.h */,
+				D708721B1BF4710E0075FB1A /* UserWrapper.h */,
+				D708721C1BF4710E0075FB1A /* Wrapper.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		D79E590319AB368400EC1CFE = {
+			isa = PBXGroup;
+			children = (
+				88391F8920AD261F0090B391 /* Headers */,
+				88391F7920AD246D0090B391 /* taozi */,
+				D70871EF1BF4710E0075FB1A /* protocols */,
+				D79E590D19AB368400EC1CFE /* Products */,
+				88391F8620AD25AC0090B391 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D79E590D19AB368400EC1CFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D79E592A19AB370700EC1CFE /* Template.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D79E592919AB370700EC1CFE /* taozi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79E592E19AB370700EC1CFE /* Build configuration list for PBXNativeTarget "taozi" */;
+			buildPhases = (
+				D79E592619AB370700EC1CFE /* Sources */,
+				D79E592719AB370700EC1CFE /* Frameworks */,
+				D79E592819AB370700EC1CFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = taozi;
+			productName = taozi;
+			productReference = D79E592A19AB370700EC1CFE /* Template.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D79E590419AB368400EC1CFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = cocos2dx;
+				TargetAttributes = {
+					D79E592919AB370700EC1CFE = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = D79E590719AB368400EC1CFE /* Build configuration list for PBXProject "taozi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D79E590319AB368400EC1CFE;
+			productRefGroup = D79E590D19AB368400EC1CFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D79E592919AB370700EC1CFE /* taozi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D79E592819AB370700EC1CFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D79E592619AB370700EC1CFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88391F8020AD246D0090B391 /* UserTaozi.m in Sources */,
+				88391F8120AD246D0090B391 /* TaoziWrapper.m in Sources */,
+				88391F8220AD246D0090B391 /* IAPOnlineTaozi.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D79E591E19AB368400EC1CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = $ARCHS;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		D79E591F19AB368400EC1CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = $ARCHS;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		D79E592F19AB370700EC1CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = $ARCHS;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					/workspace/protocols/ios,
+					/Users/laomao/Plugins_Coding/protocols/ios,
+					/workspace/code/PluginDevTools/protocols/ios,
+				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Template;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64 i386 x86_64";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		D79E593019AB370700EC1CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = $ARCHS;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../../../../protocols/ios",
+					/workspace/protocols/ios,
+					/Users/laomao/Plugins_Coding/protocols/ios,
+					/workspace/code/PluginDevTools/protocols/ios,
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Template;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64 i386 x86_64";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D79E590719AB368400EC1CFE /* Build configuration list for PBXProject "taozi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79E591E19AB368400EC1CFE /* Debug */,
+				D79E591F19AB368400EC1CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D79E592E19AB370700EC1CFE /* Build configuration list for PBXNativeTarget "taozi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79E592F19AB370700EC1CFE /* Debug */,
+				D79E593019AB370700EC1CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D79E590419AB368400EC1CFE /* Project object */;
+}
